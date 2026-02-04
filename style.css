@@ -417,7 +417,7 @@ body.dark-mode .detail-content h3 {
     border: none;
     border-bottom: 1px solid #eee;
     border-radius: 0;
-    padding: 10px 20px 10px 40px;
+    padding: 10px 20px;
     font-size: 14px;
     cursor: pointer;
     transition: background-color 0.2s;
@@ -425,16 +425,6 @@ body.dark-mode .detail-content h3 {
     position: relative;
 }
 
-.suggestion-button::before {
-    content: '>';
-    position: absolute;
-    left: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-    font-weight: bold;
-    color: #007bff;
-    font-size: 16px;
-}
 
 .suggestion-button:hover {
     background-color: #f0f0f0;
@@ -444,9 +434,6 @@ body.dark-mode .detail-content h3 {
     border-bottom: none;
 }
 
-body.dark-mode .suggestion-button::before {
-    color: #58a6ff;
-}
 
 .typing-indicator {
     display: flex;
